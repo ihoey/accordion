@@ -1,0 +1,97 @@
+.accordion {
+    width: 100%;
+    max-width: 6.944444rem;
+    width: 6.944444rem;
+    margin: 0.416667rem auto 0.277778rem;
+    background: #FFF;
+    -webkit-border-radius: 0.055556rem;
+    -moz-border-radius: 0.055556rem;
+    border-radius: 0.055556rem;
+}
+
+.accordion li {
+    position: relative;
+}
+
+.accordion .link {
+    cursor: pointer;
+    display: block;
+    border-bottom: 1px solid #CCC;
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.accordion .link:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 2.083333rem;
+    z-index: 999;
+}
+
+.accordion .link h2,
+.accordion .link h5 {
+    color: #fbfbcc;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.accordion .link h2 {
+    font-size: 0.416667rem;
+    top: 25%;
+}
+
+.accordion .link h5 {
+    font-size: 0.277778rem;
+    top: 60%;
+    font-weight: 100;
+}
+
+.accordion .submenu {
+    display: none;
+    font-size: 0.194444rem;
+    padding-left: 0.2rem;
+    margin-top: 0.277778rem;
+}
+
+.accordion .submenu li {
+    float: left;
+    width: 15%;
+    text-align: center;
+    margin-right: 0.347222rem;
+}
+
+.accordion .submenu li:nth-child(5n) {
+    margin-right: 0rem;
+}
+
+.accordion .submenu li a {
+    display: block;
+    text-decoration: none;
+    color: #d9d9d9;
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.accordion .submenu li a:hover {
+    background: #b63b4d;
+    color: #FFF;
+}
+
+.accordion .submenu li a img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.accordion .submenu li a h6 {
+    color: black;
+    margin: 0.138889rem 0;
+}
