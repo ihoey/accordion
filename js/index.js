@@ -25,5 +25,5 @@ $(function() {
     var accordion = new Accordion($('#accordion'), false);
 
 
-    $('html').css('font-size', window.innerWidth / 10);
+    // $('html').css('font-size', window.innerWidth / 10);
 });
